@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test With Whitespaces on bianloveyue&#39;s blog</title>
-    <link>https://example.com/categories/test-with-whitespaces/</link>
+    <link>http://localhost:1313/categories/test-with-whitespaces/</link>
     <description>Recent content in Test With Whitespaces on bianloveyue&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>bianloveyue@gmail.com (bianloveyue)</managingEditor>
     <webMaster>bianloveyue@gmail.com (bianloveyue)</webMaster>
     <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/categories/test-with-whitespaces/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/test-with-whitespaces/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/2019/placeholder-text/</link>
+      <link>http://localhost:1313/2019/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><author>bianloveyue@gmail.com (bianloveyue)</author>
-      <guid>https://example.com/2019/placeholder-text/</guid>
+      <guid>http://localhost:1313/2019/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
   </channel>
