@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>甘普基本变形定律 on bianloveyue&#39;s blog</title>
-    <link>https://example.com/categories/%E7%94%98%E6%99%AE%E5%9F%BA%E6%9C%AC%E5%8F%98%E5%BD%A2%E5%AE%9A%E5%BE%8B/</link>
+    <link>http://localhost:1313/categories/%E7%94%98%E6%99%AE%E5%9F%BA%E6%9C%AC%E5%8F%98%E5%BD%A2%E5%AE%9A%E5%BE%8B/</link>
     <description>Recent content in 甘普基本变形定律 on bianloveyue&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>bianloveyue@gmail.com (bianloveyue)</managingEditor>
     <webMaster>bianloveyue@gmail.com (bianloveyue)</webMaster>
     <lastBuildDate>Sun, 13 Feb 2022 03:02:52 +0800</lastBuildDate>
-    <atom:link href="https://example.com/categories/%E7%94%98%E6%99%AE%E5%9F%BA%E6%9C%AC%E5%8F%98%E5%BD%A2%E5%AE%9A%E5%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%94%98%E6%99%AE%E5%9F%BA%E6%9C%AC%E5%8F%98%E5%BD%A2%E5%AE%9A%E5%BE%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo | Hugo-stack-theme主题魔改版</title>
-      <link>https://example.com/2022/stack-theme-mod/</link>
+      <link>http://localhost:1313/2022/stack-theme-mod/</link>
       <pubDate>Sun, 13 Feb 2022 03:02:52 +0800</pubDate><author>bianloveyue@gmail.com (bianloveyue)</author>
-      <guid>https://example.com/2022/stack-theme-mod/</guid>
+      <guid>http://localhost:1313/2022/stack-theme-mod/</guid>
       <description>Github仓库地址：Mantyke/stack-theme-mod 本主题由CaiJimmy制作并发布，这个仓库是由Mantyke修改的魔改</description>
     </item>
   </channel>

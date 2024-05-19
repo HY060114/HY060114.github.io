@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Love on bianloveyue&#39;s blog</title>
-    <link>https://example.com/tags/love/</link>
+    <link>http://localhost:1313/tags/love/</link>
     <description>Recent content in Love on bianloveyue&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>bianloveyue@gmail.com (bianloveyue)</managingEditor>
     <webMaster>bianloveyue@gmail.com (bianloveyue)</webMaster>
     <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/tags/love/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/love/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bianloveyue</title>
-      <link>https://example.com/2024/bianloveyue/</link>
+      <link>http://localhost:1313/2024/bianloveyue/</link>
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate><author>bianloveyue@gmail.com (bianloveyue)</author>
-      <guid>https://example.com/2024/bianloveyue/</guid>
+      <guid>http://localhost:1313/2024/bianloveyue/</guid>
       <description>爱你不容易 i love the girl whose name is 杨越. 爱人先爱己择人先问心. The course of true love never did run smooth---It is impossible to love and to be wise---The best proff of love is trust 真诚的爱情之路永不会是平坦的---爱令智昏</description>
     </item>
   </channel>
