@@ -6,7 +6,7 @@
         <description>Recent content on bianloveyue&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>bianloveyue</title>
         <link>https://example.com/2024/bianloveyue/</link>
         <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
@@ -50,6 +50,15 @@ i love the girl whose name is 杨越.&lt;br&gt;
     marginheight=&#34;0&#34; width=510  height=86 
     src=&#34;//music.163.com/outchain/player?type=2&amp;id=427016671&amp;auto=0&amp;height=66&#34;&gt;
 &lt;/iframe&gt;
+</description>
+        </item>
+        <item>
+        <title>用hugo搭建blog主题 stack-mod</title>
+        <link>https://example.com/2024/%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog%E4%B8%BB%E9%A2%98-stack-mod/</link>
+        <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/2024/%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog%E4%B8%BB%E9%A2%98-stack-mod/</guid>
+        <description>&lt;h2 id=&#34;待续--作者加班加点更新中&#34;&gt;待续  作者加班加点更新中&lt;/h2&gt;
 </description>
         </item>
         <item>
