@@ -8,9 +8,6 @@
     <loc>https://example.com/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2024-05-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/tags/love/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -92,9 +89,13 @@
     <loc>https://example.com/2019/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://example.com/bianlovyues-blog-%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/%E6%A0%87%E7%AD%BE/</loc>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
   </url>
 </urlset>

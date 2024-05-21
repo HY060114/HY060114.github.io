@@ -5,14 +5,14 @@
         <link>https://example.com/</link>
         <description>Recent content on bianloveyue&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>zh-CN</language>
         <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>bianloveyue</title>
         <link>https://example.com/2024/bianloveyue/</link>
         <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/2024/bianloveyue/</guid>
-        <description>&lt;img src="https://example.com/2024/bianloveyue/%E5%A4%9C%E7%A9%BA.jpg" alt="Featured image of post bianloveyue" /&gt;&lt;h1 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷爱你不容易span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;爱你不容易&lt;/span&gt;&lt;/h1&gt;
+        <description>&lt;img src="https://example.com/2024/bianloveyue/%E5%A4%9C%E7%A9%BA.jpg" alt="Featured image of post bianloveyue" /&gt;&lt;h2 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷爱你不容易span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;爱你不容易&lt;/span&gt;&lt;/h2&gt;
 &lt;font face=&#34;华文行楷&#34; color=&#34;LightPink&#34; size=10&gt;
 i love the girl whose name is 杨越.&lt;br&gt;
 爱人先爱己择人先问心.&lt;br&gt;
@@ -23,25 +23,32 @@ i love the girl whose name is 杨越.&lt;br&gt;
     First love is only a little foo;osjmess and a lot of curiosity&lt;br&gt;
     初恋就是一点点的笨拙外加许许多多的好奇&lt;br&gt;
 &lt;/font&gt;
-&lt;!-- 网易云音乐外链---与我无关 --&gt;
-&lt;h1 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷还是会想你span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;还是会想你&lt;/span&gt;&lt;/h1&gt;
+&lt;!-- 网易云音乐外链---还是会想你 --&gt;
+&lt;h2 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷还是会想你span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;还是会想你&lt;/span&gt;&lt;/h2&gt;
 &lt;iframe 
     frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; 
     marginheight=&#34;0&#34; width=510  height=86
     src=&#34;//music.163.com/outchain/player?type=2&amp;id=1827600686&amp;auto=0&amp;height=66&#34;&gt;
 &lt;/iframe&gt; 
 &lt;!-- 哔哩哔哩视频插入方法---采用bilibili提供的嵌入代码---搁浅-金金Sine --&gt;
-&lt;h1 id=&#34;span-stylecolorlightpinkfont-family-华文行楷搁浅-金金sinespan&#34;&gt;&lt;span style=&#39;color:LightPink;font-family: &#34;华文行楷&#34;;&#39;&gt;搁浅-金金Sine&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;span-stylecolorlightpinkfont-family-华文行楷搁浅-金金sinespan&#34;&gt;&lt;span style=&#39;color:LightPink;font-family: &#34;华文行楷&#34;;&#39;&gt;搁浅-金金Sine&lt;/span&gt;&lt;/h2&gt;
 &lt;iframe 
     src=&#34;//player.bilibili.com/player.html?aid=1904373027&amp;bvid=BV1QS411F7Hm&amp;cid=1537759559&amp;p=1&amp;autoplay=1&amp;page=1&amp;high_quality=1&#34; 
     scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;
     width=&#34;800&#34; height=&#34;600&#34;&gt;
 &lt;/iframe&gt;
-&lt;h1 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷搁浅-周杰伦span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;搁浅-周杰伦&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷搁浅-周杰伦span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;搁浅-周杰伦&lt;/span&gt;&lt;/h2&gt;
 &lt;iframe 
     frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; 
     marginheight=&#34;0&#34; width=&#34;510&#34; height=&#34;86&#34;
     src=&#34;https://www.joy127.com/url/109725.mp3&#34;&gt;
+&lt;/iframe&gt;
+&lt;!-- 网易云音乐外链---爱你就像爱生命 --&gt;
+&lt;h2 id=&#34;span-stylecolor-lightpinkfont-family-华文行楷爱你就像爱生命span&#34;&gt;&lt;span style=&#34;color: LightPink;font-family: &#39;华文行楷&#39;;&#34;&gt;爱你就像爱生命&lt;/span&gt;&lt;/h2&gt;
+&lt;iframe 
+    frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; 
+    marginheight=&#34;0&#34; width=510  height=86 
+    src=&#34;//music.163.com/outchain/player?type=2&amp;id=427016671&amp;auto=0&amp;height=66&#34;&gt;
 &lt;/iframe&gt;
 </description>
         </item>
@@ -550,7 +557,13 @@ rev = &amp;quot;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;quot;
 &lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;
 &lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
 &lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
-&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- 
+在 e:\blog\content\post\2021\placeholder-text\index.md 文件中
+
+通过 css.inline 短代码块嵌入了内联样式
+定义了一个名为 canon 的 CSS 类，设置了背景为白色，宽度为 100%，高度自适应
+--&gt;</description>
         </item>
         <item>
         <title>Math Typesetting</title>
