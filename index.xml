@@ -58,8 +58,48 @@ i love the girl whose name is 杨越.&lt;br&gt;
         <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/2024/%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog%E4%B8%BB%E9%A2%98-stack-mod/</guid>
-        <description>&lt;h2 id=&#34;待续--作者加班加点更新中&#34;&gt;待续  作者加班加点更新中&lt;/h2&gt;
-</description>
+        <description>&lt;h2 id=&#34;准备工作&#34;&gt;准备工作&lt;/h2&gt;
+&lt;font face=&#34;华文楷体&#34; color=&#34;lightpink&#34; size=6&gt;
+一台电脑,一个人,一个能连GitHub.com的网络,以及GitHub的账号,最重要的足够的耐心.&lt;br&gt;
+&lt;h2 id=&#34;前提须知&#34;&gt;前提须知&lt;/h2&gt;
+&lt;p&gt;请下载除安装hugo用到cmd之外,请不要使用cmd,推荐git powershell fluent terminal.其中git是必须的,fluent terminal是可选的.windows powershell和powers hell是两个程序请不要搞混.&lt;br&gt;
+&lt;/font&gt;&lt;/p&gt;
+&lt;h2 id=&#34;测试password&#34;&gt;测试password&lt;/h2&gt;
+&lt;!-- 密码输入表单 --&gt;
+&lt;form id=&#34;passwordForm&#34;&gt;
+  &lt;label for=&#34;password&#34;&gt;输入密码:&lt;/label&gt;
+  &lt;input type=&#34;password&#34; id=&#34;password&#34; name=&#34;password&#34;&gt;
+  &lt;!-- 提交按钮改为普通按钮，并绑定点击事件 --&gt;
+  &lt;input type=&#34;button&#34; value=&#34;提交&#34; onclick=&#34;checkPassword()&#34;&gt;
+&lt;/form&gt;
+&lt;!-- 需要密码访问的内容，默认不显示 --&gt;
+&lt;div id=&#34;protectedContent&#34; style=&#34;display: none;&#34;&gt;
+  &lt;!-- 受保护的内容放在这里 --&gt;
+&lt;h2 id=&#34;准备工作-1&#34;&gt;准备工作&lt;/h2&gt;
+&lt;font face=&#34;华文楷体&#34; color=&#34;lightpink&#34; size=6&gt;
+一台电脑,一个人,一个能连GitHub.com的网络,以及GitHub的账号,最重要的足够的耐心.&lt;br&gt;
+&lt;h2 id=&#34;前提须知-1&#34;&gt;前提须知&lt;/h2&gt;
+&lt;p&gt;请下载除安装hugo用到cmd之外,请不要使用cmd,推荐git powershell fluent terminal.其中git是必须的,fluent terminal是可选的.windows powershell和powers hell是两个程序请不要搞混.&lt;br&gt;
+&lt;/font&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+  // 检查密码的函数
+  function checkPassword() {
+    // 获取密码输入框的值
+    var password = document.getElementById(&#34;password&#34;).value;
+    // 获取受保护内容的div元素
+    var protectedContent = document.getElementById(&#34;protectedContent&#34;);
+
+    // 判断密码是否正确
+    if (password === &#34;bianloveyue&#34;) { // 替换YOUR_PASSWORD为你实际的密码
+      // 如果密码正确，显示受保护的内容
+      protectedContent.style.display = &#34;block&#34;;
+    } else {
+      // 如果密码错误，弹出提示信息
+      alert(&#34;密码错误。&#34;);
+    }
+  }
+&lt;/script&gt;</description>
         </item>
         <item>
         <title>Hugo | Hugo-stack-theme主题魔改版</title>

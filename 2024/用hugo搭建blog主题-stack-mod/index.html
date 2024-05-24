@@ -125,7 +125,7 @@
                 
                     <li>
                         <a 
-                            href='https://github.com/CaiJimmy/hugo-theme-stack'
+                            href='https://github.com/HY060114/'
                             target="_blank"
                             title="GitHub"
                         >
@@ -340,7 +340,7 @@
 
 
                 <time class="article-words">
-                    11字
+                    351字
                 </time>
             </div>
         
@@ -352,8 +352,48 @@
     <section class="article-content">
     
     
-    <h2 id="待续--作者加班加点更新中">待续  作者加班加点更新中</h2>
+    <h2 id="准备工作">准备工作</h2>
+<font face="华文楷体" color="lightpink" size=6>
+一台电脑,一个人,一个能连GitHub.com的网络,以及GitHub的账号,最重要的足够的耐心.<br>
+<h2 id="前提须知">前提须知</h2>
+<p>请下载除安装hugo用到cmd之外,请不要使用cmd,推荐git powershell fluent terminal.其中git是必须的,fluent terminal是可选的.windows powershell和powers hell是两个程序请不要搞混.<br>
+</font></p>
+<h2 id="测试password">测试password</h2>
+<!-- 密码输入表单 -->
+<form id="passwordForm">
+  <label for="password">输入密码:</label>
+  <input type="password" id="password" name="password">
+  <!-- 提交按钮改为普通按钮，并绑定点击事件 -->
+  <input type="button" value="提交" onclick="checkPassword()">
+</form>
+<!-- 需要密码访问的内容，默认不显示 -->
+<div id="protectedContent" style="display: none;">
+  <!-- 受保护的内容放在这里 -->
+<h2 id="准备工作-1">准备工作</h2>
+<font face="华文楷体" color="lightpink" size=6>
+一台电脑,一个人,一个能连GitHub.com的网络,以及GitHub的账号,最重要的足够的耐心.<br>
+<h2 id="前提须知-1">前提须知</h2>
+<p>请下载除安装hugo用到cmd之外,请不要使用cmd,推荐git powershell fluent terminal.其中git是必须的,fluent terminal是可选的.windows powershell和powers hell是两个程序请不要搞混.<br>
+</font></p>
+</div>
+<script>
+  // 检查密码的函数
+  function checkPassword() {
+    // 获取密码输入框的值
+    var password = document.getElementById("password").value;
+    // 获取受保护内容的div元素
+    var protectedContent = document.getElementById("protectedContent");
 
+    // 判断密码是否正确
+    if (password === "bianloveyue") { // 替换YOUR_PASSWORD为你实际的密码
+      // 如果密码正确，显示受保护的内容
+      protectedContent.style.display = "block";
+    } else {
+      // 如果密码错误，弹出提示信息
+      alert("密码错误。");
+    }
+  }
+</script>
 </section>
 
 
@@ -499,7 +539,7 @@
             2023 - 
         
         2024 <a href="https://stack-theme-mod.vercel.app/">bianloveyue'sblog</a>·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
-      共书写了4.7k字·共 8篇文章<br>
+      共书写了5k字·共 8篇文章<br>
       越,你真的不打算回来了吗,我想你了,无论在家,还是学校,你说过你会回来上的.<br>
       i love the girl whose name is 杨越.<br>
       </section>
@@ -644,7 +684,11 @@ document.getElementById('days').innerHTML = number_of_days;
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#待续--作者加班加点更新中">待续  作者加班加点更新中</a></li>
+    <li><a href="#准备工作">准备工作</a></li>
+    <li><a href="#前提须知">前提须知</a></li>
+    <li><a href="#测试password">测试password</a></li>
+    <li><a href="#准备工作-1">准备工作</a></li>
+    <li><a href="#前提须知-1">前提须知</a></li>
   </ol>
 </nav>
         </div>
