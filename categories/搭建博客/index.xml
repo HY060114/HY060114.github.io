@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>搭建博客 on bianloveyue&#39;s blog</title>
+    <title>搭建博客 on EndurAut&#39;s blog</title>
     <link>https://example.com/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-    <description>Recent content in 搭建博客 on bianloveyue&#39;s blog</description>
+    <description>Recent content in 搭建博客 on EndurAut&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <managingEditor>bianloveyue@gmail.com (bianloveyue)</managingEditor>
-    <webMaster>bianloveyue@gmail.com (bianloveyue)</webMaster>
-    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
+    <managingEditor>bianloveyue@gmail.com (EndurAut)</managingEditor>
+    <webMaster>bianloveyue@gmail.com (EndurAut)</webMaster>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.com/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用hugo搭建blog主题 stack-mod</title>
       <link>https://example.com/2024/%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog%E4%B8%BB%E9%A2%98-stack-mod/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><author>bianloveyue@gmail.com (bianloveyue)</author>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><author>bianloveyue@gmail.com (EndurAut)</author>
       <guid>https://example.com/2024/%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog%E4%B8%BB%E9%A2%98-stack-mod/</guid>
       <description>准备工作 一台电脑,一个人,一个能连GitHub.com的网络,以及GitHub的账号,最重要的足够的耐心. 前提须知 请下载除安装hugo用到c</description>
     </item>
