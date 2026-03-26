@@ -61,9 +61,8 @@ DESC student
 **ALTER TABLE student add COLUMN idcard CHAR(18) COMMENT '身份证号';** 这里的`ALTER TABLE`则是用来修改已经存在的表结构 在这段里面则指向 修改student表结构的数据 后面的`add CILUMN`表明在`student`表中添加一项数据 `idcard CHAR(18) COMMENT '身份证号';` 
 
 **ALTER TABLE 表名 DROP COLUMN phone;** 
-这是一个测试 `Environment Variables` 这是一个测试 
-111 `char为固定长度` 111
-222 `123` 123
+
+**从零建立博客**：Fork仓库到自己账号下，用Github 注册 Vercel，依次点击Overview → New Project → import刚刚Fork的仓库，设置`FRAMEWORK PRESET`为Hugo → 点击`Environment Variables`，设置`NAME`为`HUGO_VERSION`，`Value`为`Hugo版本号（如0.89.0）` → 点击Add → 点击Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用Github Desktop更新文章。（注，本地预览需安装Hugo，具体请参照[Hugo | 一起动手搭建个人博客吧](https://mantyke.icu/2021/hugo-build-blog/)相关内容）
 
 
 
