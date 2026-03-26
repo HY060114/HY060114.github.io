@@ -67,3 +67,10 @@ DESC student;
 **ALTER TABLE student ADD COLUMN idcard CHAR(18) COMMENT '身份证号';**  
 `ALTER TABLE` 用于修改已经存在的表结构。  
 `ADD COLUMN` 表示在 `student` 表中新增字段：  
+
+
+测试区域
+中文 `cite` 中文<br>
+english `cite` english<br>
+english `test` english<br>
+中文 `test` 中文<br>
