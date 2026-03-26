@@ -1,7 +1,7 @@
 ---
 title: "洛克学习MySQL"
 date: 2025-03-24
-lastmod: 2025-03-24
+lastmod: 2025-03-27
 description: 垃圾学校教MySQL 因为每节课时间跨度过长我只有记下来
 tags:
   - MySqlx
@@ -50,7 +50,7 @@ ALTER TABLE student DROP COLUMN phone;
 
 **stu_no VARCHAR(15) COMMENT '学号',**  
 `VARCHAR` 前面填写要表达的数据最大字节长度，`COMMENT '学号'` 为该字段添加注释  
-***请不要忽略逗号，最后不要忘记添加分号；所有符号必须是英文输入状态。***
+***请不要忽略逗号，最后不要忘记添加分号；所有符号必须是英文输入状态***
 
 **VARCHAR 和 CHAR 的不同用法**  
 - `CHAR` 为固定长度，例如性别只有男和女，则长度固定，可用 `CHAR(1)`  
