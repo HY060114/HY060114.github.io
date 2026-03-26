@@ -61,7 +61,9 @@ DESC student
 **ALTER TABLE student add COLUMN idcard CHAR(18) COMMENT '身份证号';** 这里的`ALTER TABLE`则是用来修改已经存在的表结构 在这段里面则指向 修改student表结构的数据 后面的`add CILUMN`表明在`student`表中添加一项数据 `idcard CHAR(18) COMMENT '身份证号';` 
 
 **ALTER TABLE 表名 DROP COLUMN phone;** 
-
+这是一个测试 `Environment Variables` 这是一个测试 
+111 `char为固定长度` 111
+222 `123` 123
 
 
 
