@@ -43,21 +43,21 @@ ALTER TABLE 表名 DROP COLUMN phone;
 ## src 部分解释
 
 **针对 SELECT DATABASES();**  
-在 MySQL 里面 `SELECT` 指向查询，`DATABASES` 为数据库的复数，用于查看当前 MySQL 中所有数据库。
+在 MySQL 里面 `SELECT` 指向查询，`DATABASES` 为数据库的复数，用于查看当前 MySQL 中所有数据库
 
 **CREATE TABLE student**  
-表示创建对应名称的表，这里指向 `student`。
+表示创建对应名称的表，这里指向 `student`
 
 **stu_no VARCHAR(15) COMMENT '学号',**  
-`VARCHAR` 前面填写要表达的数据最大字节长度，`COMMENT '学号'` 为该字段添加注释。  
+`VARCHAR` 前面填写要表达的数据最大字节长度，`COMMENT '学号'` 为该字段添加注释  
 ***请不要忽略逗号，最后不要忘记添加分号；所有符号必须是英文输入状态。***
 
 **VARCHAR 和 CHAR 的不同用法**  
-- `CHAR` 为固定长度，例如性别只有男和女，则长度固定，可用 `CHAR(1)`。  
-- `VARCHAR` 为非固定长度，例如国际电话区号，不同国家前缀不同，如 +86、+1、+81，因此长度不固定，使用 `VARCHAR(n)`，括号内填写最大可能字节。
+- `CHAR` 为固定长度，例如性别只有男和女，则长度固定，可用 `CHAR(1)`  
+- `VARCHAR` 为非固定长度，例如国际电话区号，不同国家前缀不同，如 +86、+1、+81，因此长度不固定，使用 `VARCHAR(n)`，括号内填写最大可能字节
 
 **DESC 解析**  
-`DESC` 的全称为 `DESCRIBE`，直译为“描述”。在 MySQL 中用于查询表结构信息。  
+`DESC` 的全称为 `DESCRIBE`，直译为“描述”。在 MySQL 中用于查询表结构信息  
 示例：  
 ```mysql
 DESC student;
@@ -65,12 +65,5 @@ DESC student;
 ```
 
 **ALTER TABLE student ADD COLUMN idcard CHAR(18) COMMENT '身份证号';**  
-`ALTER TABLE` 用于修改已经存在的表结构。  
+`ALTER TABLE` 用于修改已经存在的表结构  
 `ADD COLUMN` 表示在 `student` 表中新增字段：  
-
-
-测试区域
-中文 `cite` 中文<br>
-english `cite` english<br>
-english `test` english<br>
-中文 `test` 中文<br>
