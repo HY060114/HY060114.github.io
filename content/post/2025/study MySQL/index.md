@@ -40,24 +40,30 @@ ALTER TABLE 表名 DROP COLUMN phone;
 #8.删除表：DROP TABLE [ IF EXISTS ] 表名;
 
 ```
-## src部分解释
+## src 部分解释
 
+**针对 SELECT DATABASES();**  
+在 MySQL 里面 `SELECT` 指向查询，`DATABASES` 为数据库的复数，用于查看当前 MySQL 中所有数据库。
 
-**针对SELECT DATABASES();**: 在MySQL里面`select`指向查询 `databases` 为数据库的复数
+**CREATE TABLE student**  
+表示创建对应名称的表，这里指向 `student`。
 
-**CREATE TABLE student**中表示创建对应`name`的表这里指向`student`
+**stu_no VARCHAR(15) COMMENT '学号',**  
+`VARCHAR` 前面填写要表达的数据最大字节长度，`COMMENT '学号'` 为该字段添加注释。  
+***请不要忽略逗号，最后不要忘记添加分号；所有符号必须是英文输入状态。***
 
-**stu_no VARCHAR(15) COMMENT '学号',**`varchar`前面则输入要表达的数据id 在comment单引号中汉字对应前面数据id的注释解析 ***这里请不要忽略逗号，*** 最后不要忘记添加; ***所有符号都要检查是否都是english状态下***
+**VARCHAR 和 CHAR 的不同用法**  
+- `CHAR` 为固定长度，例如性别只有男和女，则长度固定，可用 `CHAR(1)`。  
+- `VARCHAR` 为非固定长度，例如国际电话区号，不同国家前缀不同，如 +86、+1、+81，因此长度不固定，使用 `VARCHAR(n)`，括号内填写最大可能字节。
 
-**varchar和char的不同用法** `char为固定长度` eg:性别只有男和女 则是固定字节用char`narchar非固定长度`例如国际电话 有不同的前缀 例如cn则是+86别的地区不同就会使得长度非固定则用varchar在括号里填写数据所对应的最大字节
-
-**DESC解析**`DESC`的全称为`DESCRIBE`直译为描述 在MySQL作用查询表结构数据信息 
+**DESC 解析**  
+`DESC` 的全称为 `DESCRIBE`，直译为“描述”。在 MySQL 中用于查询表结构信息。  
+示例：  
 ```mysql
-DESC student
+DESC student;
+
 ```
 
-这里则是查询并返回 student 表结构的数据
-
-**ALTER TABLE student add COLUMN idcard CHAR(18) COMMENT '身份证号';** 这里的`ALTER TABLE`则是用来修改已经存在的表结构 在这段里面则指向 修改student表结构的数据 后面的`add CILUMN`表明在`student`表中添加一项数据`idcard CHAR(18) COMMENT '身份证号';`
-
-**ALTER TABLE 表名 DROP COLUMN phone;** 
+**ALTER TABLE student ADD COLUMN idcard CHAR(18) COMMENT '身份证号';**  
+`ALTER TABLE` 用于修改已经存在的表结构。  
+`ADD COLUMN` 表示在 `student` 表中新增字段：  
