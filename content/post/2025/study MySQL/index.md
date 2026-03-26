@@ -34,7 +34,7 @@ ALTER TABLE student add COLUMN idcard CHAR(18) COMMENT '身份证号';
 
 DESC student;
 #5.删除字段：ALTER TABLE 表名 DROP COLUMN 字段名;
-ALTER TABLE 表名 DROP COLUMN phone;
+ALTER TABLE student DROP COLUMN phone;
 #6.修改列名：ALTER TABLE 表名 CHANGE COLUMN 旧列名 新列名 类型，例如：将name修改为stu_name；
 #7.修改表名：ALTER TABLE 旧表名 RENAME TO 新表名，例如：将student修改为students;
 #8.删除表：DROP TABLE [ IF EXISTS ] 表名;
@@ -46,7 +46,7 @@ ALTER TABLE 表名 DROP COLUMN phone;
 在 MySQL 里面 `SELECT` 指向查询，`DATABASES` 为数据库的复数，用于查看当前 MySQL 中所有数据库
 
 **CREATE TABLE student**  
-表示创建对应名称的表，这里指向 `student`
+表示创建对应名称的表，这里表指向 `student`
 
 **stu_no VARCHAR(15) COMMENT '学号',**  
 `VARCHAR` 前面填写要表达的数据最大字节长度，`COMMENT '学号'` 为该字段添加注释  
@@ -67,3 +67,7 @@ DESC student;
 **ALTER TABLE student ADD COLUMN idcard CHAR(18) COMMENT '身份证号';**  
 `ALTER TABLE` 用于修改已经存在的表结构  
 `ADD COLUMN` 表示在 `student` 表中新增字段：  
+
+**ALTER TABLE student DROP COLUMN 'phone'**  
+`ALTER TABLE` 用于修改已经存在的表结构  
+`DROP COLUMN` 表示删除 `student` 表结构中某字段  → 在这段src中指向 `phone` 字段
