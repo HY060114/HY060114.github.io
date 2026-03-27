@@ -36,8 +36,11 @@ DESC student;
 #5.删除字段：ALTER TABLE 表名 DROP COLUMN 字段名;
 ALTER TABLE student DROP COLUMN phone;
 #6.修改列名：ALTER TABLE 表名 CHANGE COLUMN 旧列名 新列名 类型，例如：将name修改为stu_name；
+ALTER TABLE student CHANGE COLUMN name stu_name
 #7.修改表名：ALTER TABLE 旧表名 RENAME TO 新表名，例如：将student修改为students;
+ALTER TABLE student RENAME TO student
 #8.删除表：DROP TABLE [ IF EXISTS ] 表名;
+DROP TABLE [ IF EXISTS ] student
 
 ```
 ## src 部分解释
@@ -57,7 +60,7 @@ ALTER TABLE student DROP COLUMN phone;
 - `VARCHAR` 为非固定长度，例如国际电话区号，不同国家前缀不同，如 +86、+1、+81，因此长度不固定，使用 `VARCHAR(n)`，括号内填写最大可能字节
 
 **DESC 解析**  
-`DESC` 的全称为 `DESCRIBE`，直译为“描述”。在 MySQL 中用于查询表结构信息  
+`DESC` 的全称为 `DESCRIBE` 直译为 描述 在 MySQL 中用于查询表结构信息  
 示例：  
 ```mysql
 DESC student;
@@ -70,4 +73,4 @@ DESC student;
 
 **ALTER TABLE student DROP COLUMN 'phone'**  
 `ALTER TABLE` 用于修改已经存在的表结构  
-`DROP COLUMN` 表示删除 `student` 表结构中某字段  → 在这段src中指向 `phone` 字段
+`DROP COLUMN` 表示删除 `student` 表结构中某字段  → 在这段src中指向 `phone` 字段  
