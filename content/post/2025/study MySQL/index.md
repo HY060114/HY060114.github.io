@@ -36,11 +36,11 @@ DESC student;
 #5.删除字段：ALTER TABLE 表名 DROP COLUMN 字段名;
 ALTER TABLE student DROP COLUMN phone;
 #6.修改列名：ALTER TABLE 表名 CHANGE COLUMN 旧列名 新列名 类型，例如：将name修改为stu_name；
-ALTER TABLE student CHANGE COLUMN name stu_name
+ALTER TABLE student CHANGE COLUMN name stu_name VARCHAR(50);
 #7.修改表名：ALTER TABLE 旧表名 RENAME TO 新表名，例如：将student修改为students;
-ALTER TABLE student RENAME TO student
+ALTER TABLE student RENAME TO students;
 #8.删除表：DROP TABLE [ IF EXISTS ] 表名;
-DROP TABLE [ IF EXISTS ] student
+DROP TABLE IF EXISTS student;
 
 ```
 ## src 部分解释
