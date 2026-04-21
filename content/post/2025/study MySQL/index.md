@@ -13,7 +13,7 @@ image:
 slug: study-MySQL
 
 ---
-## 学习过的MySQL指令
+## student 表
 ```mysql
 #1.查看当前正在使用的数据库
 SELECT DATABASES();
@@ -74,3 +74,61 @@ DESC student;
 **ALTER TABLE student DROP COLUMN 'phone'**  
 `ALTER TABLE` 用于修改已经存在的表结构  
 `DROP COLUMN` 表示删除 `student` 表结构中某字段  → 在这段src中指向 `phone` 字段  
+
+
+
+## book 表
+
+```mysql
+-- 创建图书表
+CREATE TABLE book(
+    book_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '图书ID（主键，自增）',
+    isbn VARCHAR(20) UNIQUE NOT NULL COMMENT '国际标准书号（唯一，非空）',
+    title VARCHAR(200) NOT NULL COMMENT '书名（非空）',
+    author VARCHAR(100) NOT NULL COMMENT '作者（非空）',
+    publisher VARCHAR(100) COMMENT '出版社（无约束，允许为空）',
+    publish_year YEAR COMMENT '出版年份',
+    price DECIMAL(8,2) COMMENT '价格（无CHECK约束）',
+    stock INT NOT NULL COMMENT '库存数量（整数，不能为空）',
+    category VARCHAR(50) COMMENT '分类（如：技术、小说）',
+    language VARCHAR(20) COMMENT '语言（如：中文、英文）'
+) COMMENT '图书表';
+
+-- 插入第1条数据，包含isbn, title, author, publisher, publish_year, price, stock, category, language
+INSERT INTO book(isbn, title, author, publisher, publish_year, price, stock, category, language)
+VALUES('978-7-111-12345-6', 'MySQL从入门到精通', '张三', '机械工业出版社', 2022, 89.00, 10, '技术', '中文');
+
+-- 插入第2条数据，包含isbn, title, author, publish_year, price, stock, category, language（缺少publisher字段）
+INSERT INTO book(isbn, title, author, publish_year, price, stock, category, language)
+VALUES('978-7-123-12345-1', 'Java程序设计', '翠花', 2025, 109.00, 6, '语言', '中文');
+
+-- 插入第3条数据，包含isbn, title, author, stock（缺少publisher, publish_year, price, category, language字段）
+INSERT INTO book(isbn, title, author, stock)
+VALUES('978-7-302-12345-3', 'Python编程入门', '李四', 20);
+
+-- 插入第4条数据，包含isbn, title, author, publish_year, price, stock（缺少publisher, category, language字段）
+INSERT INTO book(isbn, title, author, publish_year, price, stock)
+VALUES('978-7-115-12345-5', '数据结构与算法', '王五', 2023, 59.00, 15);
+
+-- 插入第5条数据，包含isbn, title, author, publish_year, price, language（缺少publisher, stock, category字段）
+-- 注意：stock为NOT NULL字段，必须提供值，这里补充默认值0
+INSERT INTO book(isbn, title, author, publish_year, price, stock, language)
+VALUES('978-7-121-12345-8', '计算机网络', '赵六', 2024, 79.00, 0, '中文');
+
+UPDATE book SET author = '张凌赫' WHERE book_id = 1;
+UPDATE book SET author = '小昭', publish_year = 1990 WHERE book_id = 1;
+UPDATE book SET price = price + 10 WHERE book_id = 2;
+UPDATE book SET language = '英文' WHERE category = '技术';
+UPDATE book SET publisher = '清华大学出版社', price = 45.00 WHERE book_id = 3;
+UPDATE book SET stock = stock + 2 WHERE isbn = '978-7-123-12345-6';
+UPDATE book SET stock = stock + 5 WHERE stock < 12;
+UPDATE book SET author = '黑狗', language = '法文' WHERE author = '翠花';
+UPDATE book SET publish_year = 2021, category = '技术' WHERE book_id = 4;
+UPDATE book SET language = '中文' WHERE language IS NULL;
+UPDATE book SET publisher = '人民出版社', publish_year = '2020' WHERE publisher IS NULL AND publish_year IS NULL;
+
+SELECT * FROM book WHERE book_id = 1;
+SELECT * FROM book WHERE category = '技术' AND language = '英文';
+
+SELECT * FROM book;
+```
